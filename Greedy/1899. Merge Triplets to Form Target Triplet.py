@@ -15,7 +15,9 @@ class Solution:
                 flag2 += 1
             if c == target[2]:
                 flag3 += 1
-
+            if flag1 > 0 and flag2 > 0 and flag3 > 0:
+                break
+            
         if flag1 > 0 and flag2 > 0 and flag3 > 0:
             return(True)
         else:
