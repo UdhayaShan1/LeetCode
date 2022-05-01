@@ -12,5 +12,4 @@ class Solution:
                         dp[i] = True
                         flag+=1
                         break
-
         return(dp[0])
