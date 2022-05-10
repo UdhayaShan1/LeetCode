@@ -17,5 +17,4 @@ class Solution:
                 left += index
                 flag+=1
                 break
-
         return(left)
