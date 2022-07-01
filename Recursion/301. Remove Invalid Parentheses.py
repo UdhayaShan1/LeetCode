@@ -31,8 +31,6 @@ class Solution:
             if len(str1) == 0:
                 return 0
 
-
-
             for i in range(len(str1)):
                 if str1[i] != ")" and str1[i] != "(":
                     continue
